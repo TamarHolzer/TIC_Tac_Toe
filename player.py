@@ -3,4 +3,5 @@ class Player:
         self.name = name
         self.marker = marker
 
-
+    def __str__(self):
+        return f"{self.name} ({self.marker})"
